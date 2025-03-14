@@ -1,4 +1,9 @@
+
 {
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step needed'"
+  },
   "dependencies": {
     "express": "^4.21.2",
     "react": "^18.2.0",
