@@ -1322,7 +1322,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":null,
-        "Description":" You conjure a dog that rushes forward to attack a creature in range. If the conjured dog cannot reach the target it barks angrily before disappearing and the spell has no affect.\n\n Make a ranged spell attack against the target. On a hit roll a d4 and consult the following table to determine the breed of dog conjured and the damage dealt.\n\n1d4 - Chihuahua\n1d6 - Corgi\n1d8 - German Shepherd\n1d10 - Dalmatian\n1d12 - Pitbull\n\nThis spell's damage increases when you reach 5th level (2d4\/2d6\/2d8\/2d10\/2d12), 11th level (3d4\/3d6\/3d8\/3d10\/3d12), and 17th level (4d4\/4d6\/4d8\/4d10\/4d12).",
+        "Description":" You conjure a dog that rushes forward to attack a creature in range. If the conjured dog cannot reach the target it barks angrily before disappearing and the spell has no affect.\n\n Make a ranged spell attack against the target. On a hit roll a d4 and consult the following table to determine the breed of dog conjured and the damage dealt.\n\n1d4 - Chihuahua\n1d6 - Corgi\n1d8 - German Shepherd\n1d10 - Pitbull\n\nThis spell's damage increases when you reach 5th level (2d4\/2d6\/2d8\/2d10), 11th level (3d4\/3d6\/3d8\/3d10), and 17th level (4d4\/4d6\/4d8\/4d10).",
         "Unnamed: 10":null
     },
     {
