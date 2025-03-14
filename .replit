@@ -5,20 +5,8 @@ run = "node index.js"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "npx serve"]
+run = ["sh", "-c", "node index.js"]
 
 [[ports]]
 localPort = 3000
 externalPort = 80
-
-[workflows]
-runButton = "Run"
-
-[[workflows.workflow]]
-name = "Run"
-author = 40491272
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npx serve"
