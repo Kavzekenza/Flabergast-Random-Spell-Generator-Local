@@ -312,15 +312,15 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: 250px 250px; /* First and column fixed width */
-    column-gap: 50px; /* Adds space between columns */
+    grid-template-columns: 270px 270px; /* First column for labels, second for values */
+    column-gap: 100px; /* Adds space between columns */
     row-gap: 10px; /* Adds space between rows */
     justify-content: center; /* Ensures content is centered */
     align-items: start;
     text-align: left;
     width: 100%;
     max-width: 600px;
-    margin: 25px 0 0; /* Centers the metadata under the button */
+    margin: 25px auto 10px; /* Centers the metadata under the button */
 }
 
 .spell-metadata p {

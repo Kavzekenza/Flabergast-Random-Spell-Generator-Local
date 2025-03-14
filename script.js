@@ -24,12 +24,11 @@ function generateSpell() {
     const randomSpell = spellList[randomIndex];
 
     // Update the display
-    document.getElementById("spellName").textContent = randomSpell["Spell Name"] || "Unknown";
-    document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
-    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
     document.getElementById("spellCastingTime").textContent = randomSpell["Casting Time"] || "Unknown";
     document.getElementById("spellConcentration").textContent = randomSpell["Requires Concentration?"] || "No";
+    document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
     document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
+    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
     const description = randomSpell["Description"] || "No description available.";
     const formattedDescription = description.split('\n\n').map(paragraph => 
         `<p>${paragraph.trim()}</p>`
