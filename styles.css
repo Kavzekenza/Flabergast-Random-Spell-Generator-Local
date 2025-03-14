@@ -90,20 +90,32 @@ nav {
     transform: rotate(-90deg);
 }
 
-.filter-toggles {
-    transition: max-height 0.3s ease-out;
-    max-height: 200px;
-    overflow: hidden;
-}
-
-.filter-toggles.collapsed {
-    max-height: 0;
+.filter-category {
+    position: relative;
 }
 
 .filter-toggles {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #411e50;
+    border: 1px solid #32CD32;
+    border-top: none;
+    padding: 10px;
+    z-index: 100;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 0 0 8px 8px;
+}
+
+.filter-toggles.collapsed {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .filter-toggles label {
