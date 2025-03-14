@@ -49,6 +49,14 @@
     
     <div id="listPage" class="page">
         <h1>Chaos Magic Spell List</h1>
+        <div class="filter-controls">
+            <input type="text" id="spellSearch" placeholder="Search spells by name..." class="search-input">
+            <div class="filter-toggles">
+                <label><input type="checkbox" id="filterCastingTime" value="1 Action"> 1 Action Casting Time</label>
+                <label><input type="checkbox" id="filterConcentration" value="Yes"> Requires Concentration</label>
+                <label><input type="checkbox" id="filterInstantaneous" value="Instantaneous"> Instantaneous Duration</label>
+            </div>
+        </div>
         <select id="spellLevelList">
             <option value="Cantrip">Cantrip</option>
             <option value="1st">1st Level</option>

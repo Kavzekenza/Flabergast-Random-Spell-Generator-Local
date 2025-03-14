@@ -41,12 +41,29 @@ function generateSpell() {
     spellOutput.classList.add("visible");
 }
 
+function filterSpells(spells) {
+    const searchTerm = document.getElementById("spellSearch").value.toLowerCase();
+    const filterCastingTime = document.getElementById("filterCastingTime").checked;
+    const filterConcentration = document.getElementById("filterConcentration").checked;
+    const filterInstantaneous = document.getElementById("filterInstantaneous").checked;
+
+    return spells.filter(spell => {
+        const nameMatch = spell["Spell Name"].toLowerCase().includes(searchTerm);
+        const castingTimeMatch = !filterCastingTime || spell["Casting Time"] === "1 Action";
+        const concentrationMatch = !filterConcentration || spell["Requires Concentration?"] === "Yes";
+        const durationMatch = !filterInstantaneous || spell["Duration"] === "Instantaneous";
+
+        return nameMatch && castingTimeMatch && concentrationMatch && durationMatch;
+    });
+}
+
 function displaySpellList() {
     const level = document.getElementById("spellLevelList").value;
     const spellList = document.getElementById("spellList");
     spellList.innerHTML = '';
 
     const levelSpells = spellData.filter(spell => spell["Spell Level"] === level);
+    const filteredSpells = filterSpells(levelSpells);
 
     levelSpells.forEach(spell => {
         const spellCard = document.createElement('div');
@@ -105,5 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Spell list functionality
     const spellLevelList = document.getElementById('spellLevelList');
+    const spellSearch = document.getElementById('spellSearch');
+    const filterControls = document.querySelectorAll('.filter-toggles input[type="checkbox"]');
+
     spellLevelList.addEventListener('change', displaySpellList);
+    spellSearch.addEventListener('input', displaySpellList);
+    filterControls.forEach(control => {
+        control.addEventListener('change', displaySpellList);
+    });
 });
