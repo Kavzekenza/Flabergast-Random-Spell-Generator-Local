@@ -132,6 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
         spinnerPage.classList.remove('active');
         listPageBtn.classList.add('active');
         spinnerPageBtn.classList.remove('active');
+        
+        // Set default value to Cantrip and trigger display
+        document.getElementById('spellLevelList').value = 'Cantrip';
+        displaySpellList();
     });
 
     // Spell list functionality
