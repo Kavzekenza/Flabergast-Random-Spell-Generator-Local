@@ -200,51 +200,57 @@ select {
 }
 
 .button {
-    font-family: 'Fondamento', cursive;
-    font-weight: 700;
-    background-color: #32CD32; /* Green background */
-    color: #800080; /* Purple text */
-    padding: 8px 12px;
-    display: block;
-    margin-top: 30px auto;
-    cursor: pointer;
-    width: 200px;
+    font-size: 1.8rem; /* Slightly reduce font size to fit */
     font-weight: bold;
-}
-
-.button, .output {
-    width: 220px; /* Appropriate width to accommodate content */
-    height: 127px; /* Adjusted for proper hexagonal appearance */
-    background-color: #32CD32;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    margin: 100px auto; /* Increased margin to space out elements */
+    width: 220px; /* Keep proportions */
+    height: 250px; /* Increased height to prevent clipping */
+    background-color: #32CD32;
+    color: #800080; /* Purple text */
+    border: none;
+    cursor: pointer;
+    font-family: 'Fondamento', cursive;
+    margin: 50px auto; /* Preserve original margin */
+    line-height: 1.2; /* Reduce line height to avoid overflow */
+    padding: 10px 15px; /* Add padding to prevent text overflow */
+    box-sizing: border-box; /* Ensures padding doesn’t change dimensions */
+
+    /* Keep the Correct Hexagonal Shape */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    /* Add Shadow and Smooth Transition */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
 }
 
-.button {
-    font-size: 2rem; /* Increase the text size for the button */
-    font-weight: bold; /* Make the text bold for better visibility */
+/* Fix: Keep Hexagonal Shape During Hover */
+.button:hover {
+    background-color: #3be03b;
+    box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.7);
+    transform: scale(1.05);
 }
 
-.hexagon:before, .hexagon:after, .button:before, .button:after, .output:before, .output:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 110px solid transparent; /* Adjust to fit new width */
-    border-right: 110px solid transparent;
+/* Click Effect: Press Down */
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 8px rgba(50, 205, 50, 0.5);
 }
 
-.hexagon:before, .button:before, .output:before {
-    bottom: 100%;
-    border-bottom: 63.5px solid #32CD32; /* Adjust to fit new height */
+/* Fix: Keep Hexagonal Shape During Hover */
+.button:hover {
+    background-color: #3be03b;
+    box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.7);
+    transform: scale(1.05);
 }
 
-.hexagon:after, .button:after, .output:after {
-    top: 100%;
-    border-top: 63.5px solid #32CD32;
+/* Click Effect: Press Down */
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 8px rgba(50, 205, 50, 0.5);
 }
 
 #spellOutput {
