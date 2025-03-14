@@ -48,7 +48,7 @@ function filterSpells(spells) {
     const filterInstantaneous = document.getElementById("filterInstantaneous").checked;
 
     return spells.filter(spell => {
-        const nameMatch = spell["Spell Name"].toLowerCase().includes(searchTerm);
+        const nameMatch = spell["Spell Name"].toLowerCase().startsWith(searchTerm);
         const castingTimeMatch = !filterCastingTime || spell["Casting Time"] === "1 Action";
         const concentrationMatch = !filterConcentration || spell["Requires Concentration?"] === "Yes";
         const durationMatch = !filterInstantaneous || spell["Duration"] === "Instantaneous";
