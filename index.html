@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Chaos Magic Spell Spinner</h1>
+    <nav>
+        <button id="spinnerPageBtn" class="nav-button active">Spell Spinner</button>
+        <button id="listPageBtn" class="nav-button">Spell List</button>
+    </nav>
+    
+    <div id="spinnerPage" class="page active">
+        <h1>Chaos Magic Spell Spinner</h1>
     <select id="spellLevel">
         <option value="Cantrip">Cantrip</option>
         <option value="1st">1st Level</option>
@@ -39,6 +45,25 @@
             <p><span id="spellDescription"></span></p>
         </div>
     </div>
+    </div>
+    
+    <div id="listPage" class="page">
+        <h1>Chaos Magic Spell List</h1>
+        <select id="spellLevelList">
+            <option value="Cantrip">Cantrip</option>
+            <option value="1st">1st Level</option>
+            <option value="2nd">2nd Level</option>
+            <option value="3rd">3rd Level</option>
+            <option value="4th">4th Level</option>
+            <option value="5th">5th Level</option>
+            <option value="6th">6th Level</option>
+            <option value="7th">7th Level</option>
+            <option value="8th">8th Level</option>
+            <option value="9th">9th Level</option>
+        </select>
+        <div id="spellList"></div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

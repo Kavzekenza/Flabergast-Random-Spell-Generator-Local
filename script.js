@@ -41,11 +41,69 @@ function generateSpell() {
     spellOutput.classList.add("visible");
 }
 
+function displaySpellList() {
+    const level = document.getElementById("spellLevelList").value;
+    const spellList = document.getElementById("spellList");
+    spellList.innerHTML = '';
+
+    const levelSpells = spellData.filter(spell => spell["Spell Level"] === level);
+
+    levelSpells.forEach(spell => {
+        const spellCard = document.createElement('div');
+        spellCard.className = 'spell-card';
+        
+        const description = spell["Description"] || "No description available.";
+        const formattedDescription = description.split('\n\n').map(paragraph => 
+            `<p>${paragraph.trim()}</p>`
+        ).join('');
+
+        spellCard.innerHTML = `
+            <h2>${spell["Spell Name"] || "Unknown"}</h2>
+            <div class="spell-metadata">
+                <p><strong>Components:</strong> ${spell["Components"] || "None"}</p>
+                <p><strong>Casting Time:</strong> ${spell["Casting Time"] || "Unknown"}</p>
+                <p><strong>Duration:</strong> ${spell["Duration"] || "Unknown"}</p>
+                <p><strong>Concentration:</strong> ${spell["Requires Concentration?"] || "No"}</p>
+                <p><strong>Range:</strong> ${spell["Range"] || "None"}</p>
+            </div>
+            <div class="spell-description">
+                <h3>Description</h3>
+                ${formattedDescription}
+            </div>
+        `;
+        
+        spellList.appendChild(spellCard);
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-    const button = document.querySelector('button');
+    // Spinner page button
+    const button = document.querySelector('.button');
     if (button) {
         button.addEventListener('click', generateSpell);
-    } else {
-        console.error("Generate button not found.");
     }
+
+    // Navigation
+    const spinnerPageBtn = document.getElementById('spinnerPageBtn');
+    const listPageBtn = document.getElementById('listPageBtn');
+    const spinnerPage = document.getElementById('spinnerPage');
+    const listPage = document.getElementById('listPage');
+
+    spinnerPageBtn.addEventListener('click', () => {
+        spinnerPage.classList.add('active');
+        listPage.classList.remove('active');
+        spinnerPageBtn.classList.add('active');
+        listPageBtn.classList.remove('active');
+    });
+
+    listPageBtn.addEventListener('click', () => {
+        listPage.classList.add('active');
+        spinnerPage.classList.remove('active');
+        listPageBtn.classList.add('active');
+        spinnerPageBtn.classList.remove('active');
+    });
+
+    // Spell list functionality
+    const spellLevelList = document.getElementById('spellLevelList');
+    spellLevelList.addEventListener('change', displaySpellList);
 });
