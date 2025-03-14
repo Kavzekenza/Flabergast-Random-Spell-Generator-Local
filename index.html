@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,20 +13,31 @@
 <body>
     <h1>Flabbergast Spell Spinner</h1>
     <select id="spellLevel">
-        <option value="1">Spell Level 1</option>
-        <option value="2">Spell Level 2</option>
-        <option value="3">Spell Level 3</option>
-        <option value="4">Spell Level 4</option>
-        <option value="5">Spell Level 5</option>
-        <option value="6">Spell Level 6</option>
-        <option value="7">Spell Level 7</option>
-        <option value="8">Spell Level 8</option>
-        <option value="9">Spell Level 9</option>
+        <option value="Cantrip">Cantrip</option>
+        <option value="1st">1st Level</option>
+        <option value="2nd">2nd Level</option>
+        <option value="3rd">3rd Level</option>
+        <option value="4th">4th Level</option>
+        <option value="5th">5th Level</option>
+        <option value="6th">6th Level</option>
+        <option value="7th">7th Level</option>
+        <option value="8th">8th Level</option>
+        <option value="9th">9th Level</option>
     </select>
     <button class="hexagon button">Flabbergast!</button>
     <div id="spellOutput" class="hexagon output">
         <h2><span id="spellName"></span></h2>
-        <p><span id="spellEffect"></span></p>
+        <div class="spell-metadata">
+            <p><strong>Components:</strong> <span id="spellComponents"></span></p>
+            <p><strong>Casting Time:</strong> <span id="spellCastingTime"></span></p>
+            <p><strong>Duration:</strong> <span id="spellDuration"></span></p>
+            <p><strong>Concentration:</strong> <span id="spellConcentration"></span></p>
+            <p><strong>Range:</strong> <span id="spellRange"></span></p>
+        </div>
+        <div class="spell-description">
+            <h3>Description</h3>
+            <p><span id="spellDescription"></span></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

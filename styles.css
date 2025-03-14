@@ -142,3 +142,37 @@ select {
 #spellOutput:after {
     border-top: 90px solid #411e50;
 }
+
+.output {
+    display: none;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: left;
+}
+
+.spell-metadata {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.spell-metadata p {
+    margin: 5px 0;
+}
+
+.spell-description {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.spell-description h3 {
+    margin-top: 0;
+    color: #ffd700;
+}
