@@ -1,0 +1,13 @@
+
+modules = ["nodejs-20", "web"]
+run = "npx serve -s ."
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npx serve -s ."]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
