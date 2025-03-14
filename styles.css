@@ -100,19 +100,21 @@ select {
 #spellOutput {
     background-color: #411e50;
     border: 2px solid #32CD32;
-    padding: 20px;
-    overflow: hidden; /* Keeps content within hexagonal boundaries */
-    margin: 100px auto 60px; /* Increased bottom margin for clearer separation */
-    width: 300px; /* Increased width to accommodate more text */
-    height: 180px; /* Increased height for more content */
+    padding: 30px;
+    margin: 100px auto 60px;
+    width: 80%;
+    max-width: 800px;
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Ensure text is centered */
-    opacity: 0; /* Start hidden */
-    visibility: hidden; /* Completely hide it */
-    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Smooth transition */
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    overflow-y: auto;
+    border-radius: 10px;
 }
 
 #spellOutput.visible {
@@ -153,12 +155,13 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
     margin: 20px 0;
-    padding: 15px;
+    padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
+    word-wrap: break-word;
 }
 
 .spell-metadata p {
