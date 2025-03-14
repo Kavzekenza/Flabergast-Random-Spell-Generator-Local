@@ -148,6 +148,8 @@ nav {
     max-width: 800px;
     border-radius: 10px;
     text-align: left;
+    overflow: visible; /* Prevent content from being hidden */
+    min-height: auto; /* Allow box to expand */
 }
 
 h1 {
@@ -160,6 +162,7 @@ h1 {
 h2 {
     font-family: 'Fondamento', cursive;
     font-weight: 700;
+    margin-bottom: 20px; /* Increase spacing between title and metadata */
 }
 
 label {
@@ -200,7 +203,8 @@ select {
     background-color: #32CD32; /* Green background */
     color: #800080; /* Purple text */
     padding: 8px 12px;
-    margin-top: 30px;
+    display: block;
+    margin-top: 30px auto;
     cursor: pointer;
     width: 200px;
     font-weight: bold;
@@ -244,21 +248,25 @@ select {
 #spellOutput {
     background-color: #411e50;
     border: 2px solid #32CD32;
-    padding: 30px;
-    margin: 100px auto 60px;
+    padding: 20px;
+    margin: 20px auto;
     width: 80%;
     max-width: 800px;
-    min-height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    text-align: left;
+    align-items: center; /*centers all content*/
+    text-align: center;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    overflow-y: auto;
-    border-radius: 10px;
+    overflow: visible; /* Ensures no content is clipped */
+    min-height: auto; /* Allows box to expand */
+    position: relative; /* Prevents overlapping */
+}
+
+/* Fixes overlapping purple hexagon */
+#spellOutput::before, #spellOutput::after {
+    display: none; /* Hide unwanted hexagon artifacts */
 }
 
 #spellOutput.visible {
@@ -299,13 +307,14 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    margin: 20px 0;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    word-wrap: break-word;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10px 30px; /* Adds spacing between columns and rows */
+    justify-content: center; /* Centers metadata within the box */
+    align-items: start;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Ensures it's centered inside the spell box */
 }
 
 .spell-metadata p {

@@ -39,6 +39,11 @@ function generateSpell() {
     // Make the spell output visible
     const spellOutput = document.getElementById("spellOutput");
     spellOutput.classList.add("visible");
+
+    // Allow box to grow dynamically
+    spellOutput.style.height = "auto";
+    spellOutput.style.maxHeight = "none";
+    spellOutput.style.overflow = "visible"; // Ensure content is        not clipped
 }
 
 function filterSpells(spells) {
