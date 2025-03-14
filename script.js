@@ -65,7 +65,7 @@ function displaySpellList() {
     const levelSpells = spellData.filter(spell => spell["Spell Level"] === level);
     const filteredSpells = filterSpells(levelSpells);
 
-    levelSpells.forEach(spell => {
+    filteredSpells.forEach(spell => {
         const spellCard = document.createElement('div');
         spellCard.className = 'spell-card';
         
