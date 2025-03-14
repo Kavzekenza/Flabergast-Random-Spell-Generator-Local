@@ -250,20 +250,22 @@ select {
 #spellOutput {
     background-color: #411e50;
     border: 2px solid #32CD32;
+    padding: 0px 20px 30px; /*adds internal padding for proper spacing*/
     margin: 20px auto;
     width: 80%;
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers all content inside */
-    text-align: center;
-    padding: 0px 20px 30px; /* Adds internal padding for proper spacing */
+    align-items: center; /*centers all content inside*/
+    text-align: left;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-    overflow: visible; /* Ensures no content is clipped */
-    min-height: auto; /* Allows box to expand */
+    overflow-y: auto;
+    overflow: visible; /* ensures no content is clipped */
     position: relative; /* Prevents overlapping */
+    min-height: auto; /* Allow box to expand */
+    border-radius: 10px;
 }
 
 /* Fixes overlapping purple hexagon */
@@ -280,6 +282,7 @@ select {
 #spellOutput h2 {
     font-size: 1.8rem;
     margin-bottom: -15px;
+    color: #32CD32;
 }
 
 #spellOutput p {
@@ -309,15 +312,15 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: repeat(2, auto); /* Two equal columns */
-    column-gap: 40px; /* Adds space between columns */
+    grid-template-columns: 250px 250px; /* First and column fixed width */
+    column-gap: 50px; /* Adds space between columns */
     row-gap: 10px; /* Adds space between rows */
     justify-content: center; /* Ensures content is centered */
     align-items: start;
     text-align: left;
     width: 100%;
     max-width: 600px;
-    margin: 25px auto 0; /* Centers the metadata under the button */
+    margin: 25px 0 0; /* Centers the metadata under the button */
 }
 
 .spell-metadata p {
@@ -333,5 +336,5 @@ select {
 
 .spell-description h3 {
     margin-top: 0;
-    color: #ffd700;
+    color: #32CD32;
 }
