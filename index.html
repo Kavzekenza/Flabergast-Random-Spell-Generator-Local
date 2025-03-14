@@ -53,24 +53,33 @@
             <input type="text" id="spellSearch" placeholder="Search spells by name..." class="search-input">
             <div class="filter-categories">
                 <div class="filter-category">
-                    <h3>Casting Time</h3>
-                    <div class="filter-toggles">
+                    <div class="category-header">
+                        <h3>Casting Time</h3>
+                        <span class="toggle-arrow">▼</span>
+                    </div>
+                    <div class="filter-toggles collapsed">
                         <label><input type="checkbox" data-filter="castingTime" value="Action"> Action</label>
                         <label><input type="checkbox" data-filter="castingTime" value="Bonus Action"> Bonus Action</label>
                         <label><input type="checkbox" data-filter="castingTime" value="Reaction"> Reaction</label>
                     </div>
                 </div>
                 <div class="filter-category">
-                    <h3>Duration</h3>
-                    <div class="filter-toggles">
+                    <div class="category-header">
+                        <h3>Duration</h3>
+                        <span class="toggle-arrow">▼</span>
+                    </div>
+                    <div class="filter-toggles collapsed">
                         <label><input type="checkbox" data-filter="duration" value="Instantaneous"> Instantaneous</label>
                         <label><input type="checkbox" data-filter="duration" value="1 minute"> 1 Minute</label>
                         <label><input type="checkbox" data-filter="duration" value="1 hour"> 1 Hour</label>
                     </div>
                 </div>
                 <div class="filter-category">
-                    <h3>Concentration</h3>
-                    <div class="filter-toggles">
+                    <div class="category-header">
+                        <h3>Concentration</h3>
+                        <span class="toggle-arrow">▼</span>
+                    </div>
+                    <div class="filter-toggles collapsed">
                         <label><input type="checkbox" data-filter="concentration" value="Yes"> Yes</label>
                         <label><input type="checkbox" data-filter="concentration" value="No"> No</label>
                     </div>

@@ -96,7 +96,18 @@ function displaySpellList() {
     });
 }
 
+function toggleFilterCategory(header) {
+    const toggles = header.nextElementSibling;
+    const arrow = header.querySelector('.toggle-arrow');
+    toggles.classList.toggle('collapsed');
+    arrow.classList.toggle('rotated');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Add click handlers for filter category headers
+    document.querySelectorAll('.category-header').forEach(header => {
+        header.addEventListener('click', () => toggleFilterCategory(header));
+    });
     // Spinner page button
     const button = document.querySelector('.button');
     if (button) {

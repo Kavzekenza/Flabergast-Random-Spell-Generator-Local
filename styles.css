@@ -67,10 +67,37 @@ nav {
     min-width: 200px;
 }
 
-.filter-category h3 {
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.category-header h3 {
     color: #32CD32;
-    margin: 0 0 10px 0;
+    margin: 0;
     font-size: 1.2rem;
+}
+
+.toggle-arrow {
+    color: #32CD32;
+    transition: transform 0.3s ease;
+}
+
+.toggle-arrow.rotated {
+    transform: rotate(-90deg);
+}
+
+.filter-toggles {
+    transition: max-height 0.3s ease-out;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.filter-toggles.collapsed {
+    max-height: 0;
 }
 
 .filter-toggles {
