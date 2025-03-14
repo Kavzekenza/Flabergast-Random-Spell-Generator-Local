@@ -43,17 +43,20 @@ function generateSpell() {
 
 function filterSpells(spells) {
     const searchTerm = document.getElementById("spellSearch").value.toLowerCase();
-    const filterCastingTime = document.getElementById("filterCastingTime").checked;
-    const filterConcentration = document.getElementById("filterConcentration").checked;
-    const filterInstantaneous = document.getElementById("filterInstantaneous").checked;
+    
+    const selectedFilters = {
+        castingTime: Array.from(document.querySelectorAll('input[data-filter="castingTime"]:checked')).map(input => input.value),
+        duration: Array.from(document.querySelectorAll('input[data-filter="duration"]:checked')).map(input => input.value),
+        concentration: Array.from(document.querySelectorAll('input[data-filter="concentration"]:checked')).map(input => input.value)
+    };
 
     return spells.filter(spell => {
         const nameMatch = spell["Spell Name"].toLowerCase().startsWith(searchTerm);
-        const castingTimeMatch = !filterCastingTime || spell["Casting Time"] === "1 Action";
-        const concentrationMatch = !filterConcentration || spell["Requires Concentration?"] === "Yes";
-        const durationMatch = !filterInstantaneous || spell["Duration"] === "Instantaneous";
+        const castingTimeMatch = selectedFilters.castingTime.length === 0 || selectedFilters.castingTime.includes(spell["Casting Time"]);
+        const durationMatch = selectedFilters.duration.length === 0 || selectedFilters.duration.includes(spell["Duration"]);
+        const concentrationMatch = selectedFilters.concentration.length === 0 || selectedFilters.concentration.includes(spell["Requires Concentration?"]);
 
-        return nameMatch && castingTimeMatch && concentrationMatch && durationMatch;
+        return nameMatch && castingTimeMatch && durationMatch && concentrationMatch;
     });
 }
 

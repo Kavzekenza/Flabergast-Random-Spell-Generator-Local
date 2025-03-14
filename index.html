@@ -51,10 +51,30 @@
         <h1>Chaos Magic Spell List</h1>
         <div class="filter-controls">
             <input type="text" id="spellSearch" placeholder="Search spells by name..." class="search-input">
-            <div class="filter-toggles">
-                <label><input type="checkbox" id="filterCastingTime" value="1 Action"> 1 Action Casting Time</label>
-                <label><input type="checkbox" id="filterConcentration" value="Yes"> Requires Concentration</label>
-                <label><input type="checkbox" id="filterInstantaneous" value="Instantaneous"> Instantaneous Duration</label>
+            <div class="filter-categories">
+                <div class="filter-category">
+                    <h3>Casting Time</h3>
+                    <div class="filter-toggles">
+                        <label><input type="checkbox" data-filter="castingTime" value="Action"> Action</label>
+                        <label><input type="checkbox" data-filter="castingTime" value="Bonus Action"> Bonus Action</label>
+                        <label><input type="checkbox" data-filter="castingTime" value="Reaction"> Reaction</label>
+                    </div>
+                </div>
+                <div class="filter-category">
+                    <h3>Duration</h3>
+                    <div class="filter-toggles">
+                        <label><input type="checkbox" data-filter="duration" value="Instantaneous"> Instantaneous</label>
+                        <label><input type="checkbox" data-filter="duration" value="1 minute"> 1 Minute</label>
+                        <label><input type="checkbox" data-filter="duration" value="1 hour"> 1 Hour</label>
+                    </div>
+                </div>
+                <div class="filter-category">
+                    <h3>Concentration</h3>
+                    <div class="filter-toggles">
+                        <label><input type="checkbox" data-filter="concentration" value="Yes"> Yes</label>
+                        <label><input type="checkbox" data-filter="concentration" value="No"> No</label>
+                    </div>
+                </div>
             </div>
         </div>
         <select id="spellLevelList">

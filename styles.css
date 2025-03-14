@@ -51,11 +51,32 @@ nav {
     font-size: 1.1rem;
 }
 
-.filter-toggles {
+.filter-categories {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     margin-bottom: 20px;
+    justify-content: center;
+}
+
+.filter-category {
+    background-color: #411e50;
+    border: 1px solid #32CD32;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 200px;
+}
+
+.filter-category h3 {
+    color: #32CD32;
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.filter-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .filter-toggles label {
