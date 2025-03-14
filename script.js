@@ -30,7 +30,11 @@ function generateSpell() {
     document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
     document.getElementById("spellConcentration").textContent = randomSpell["Requires Concentration?"] || "No";
     document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
-    document.getElementById("spellDescription").textContent = randomSpell["Description"] || "No description available.";
+    const description = randomSpell["Description"] || "No description available.";
+    const formattedDescription = description.split('\n\n').map(paragraph => 
+        `<p>${paragraph.trim()}</p>`
+    ).join('');
+    document.getElementById("spellDescription").innerHTML = formattedDescription;
 
     // Make the spell output visible
     const spellOutput = document.getElementById("spellOutput");
