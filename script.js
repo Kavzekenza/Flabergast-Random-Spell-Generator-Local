@@ -73,9 +73,11 @@ function displaySpellList() {
         spellCard.className = 'spell-card';
         
         const description = spell["Description"] || "No description available.";
-        const formattedDescription = description.split('\n\n').map(paragraph => 
-            `<p>${paragraph.trim()}</p>`
-        ).join('');
+        const formattedDescription = description
+            .split('\n')
+            .filter(para => para.trim() !== '')
+            .map(paragraph => `<p>${paragraph.trim()}</p>`)
+            .join('');
 
         spellCard.innerHTML = `
             <h2>${spell["Spell Name"] || "Unknown"}</h2>
