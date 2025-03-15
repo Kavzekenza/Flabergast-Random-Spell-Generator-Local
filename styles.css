@@ -76,7 +76,7 @@ nav {
 }
 
 .category-header h3 {
-    color: #32CD32;
+    color: #d4d2ec;
     margin: 0;
     font-size: 1.2rem;
 }
@@ -162,6 +162,7 @@ h1 {
 h2 {
     font-family: 'Fondamento', cursive;
     font-weight: 700;
+    color: #32CD32; /* Bright green color */
     font-size: 2rem; /* Set a default size */
     margin-bottom: 25px;
     text-align: center;
