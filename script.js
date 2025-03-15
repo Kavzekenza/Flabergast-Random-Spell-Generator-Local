@@ -25,11 +25,11 @@ function generateSpell() {
 
     // Update the display
     document.getElementById("spellName").textContent = randomSpell["Spell Name"] || "Unknown";
-    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
     document.getElementById("spellCastingTime").textContent = randomSpell["Casting Time"] || "Unknown";
-    document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
     document.getElementById("spellConcentration").textContent = randomSpell["Requires Concentration?"] || "No";
     document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
+    document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
+    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
     const description = randomSpell["Description"] || "No description available.";
     const formattedDescription = description.split('\n\n').map(paragraph => 
         `<p>${paragraph.trim()}</p>`
@@ -39,6 +39,11 @@ function generateSpell() {
     // Make the spell output visible
     const spellOutput = document.getElementById("spellOutput");
     spellOutput.classList.add("visible");
+
+    // Allow box to grow dynamically
+    spellOutput.style.height = "auto";
+    spellOutput.style.maxHeight = "none";
+    spellOutput.style.overflow = "visible"; // Ensure content is        not clipped
 }
 
 function filterSpells(spells) {

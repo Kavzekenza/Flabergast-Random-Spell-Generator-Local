@@ -76,7 +76,7 @@ nav {
 }
 
 .category-header h3 {
-    color: #32CD32;
+    color: #d4d2ec;
     margin: 0;
     font-size: 1.2rem;
 }
@@ -148,6 +148,8 @@ nav {
     max-width: 800px;
     border-radius: 10px;
     text-align: left;
+    overflow: visible; /* Prevent content from being hidden */
+    min-height: auto; /* Allow box to expand */
 }
 
 h1 {
@@ -160,6 +162,18 @@ h1 {
 h2 {
     font-family: 'Fondamento', cursive;
     font-weight: 700;
+    color: #32CD32; /* Bright green color */
+    font-size: 2rem; /* Set a default size */
+    margin-bottom: 25px;
+    text-align: center;
+    word-wrap: break-word; /* Ensures long spell names wrap instead of overflowing */
+}
+
+/* Make spell name larger on desktop */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
 }
 
 label {
@@ -195,70 +209,83 @@ select {
 }
 
 .button {
-    font-family: 'Fondamento', cursive;
-    font-weight: 700;
-    background-color: #32CD32; /* Green background */
-    color: #800080; /* Purple text */
-    padding: 8px 12px;
-    margin-top: 30px;
-    cursor: pointer;
-    width: 200px;
+    font-size: 1.8rem; /* Slightly reduce font size to fit */
     font-weight: bold;
-}
-
-.button, .output {
-    width: 220px; /* Appropriate width to accommodate content */
-    height: 127px; /* Adjusted for proper hexagonal appearance */
-    background-color: #32CD32;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    margin: 100px auto; /* Increased margin to space out elements */
+    width: 220px; /* Keep proportions */
+    height: 250px; /* Increased height to prevent clipping */
+    background-color: #32CD32;
+    color: #800080; /* Purple text */
+    border: none;
+    cursor: pointer;
+    font-family: 'Fondamento', cursive;
+    margin: 50px auto; /* Preserve original margin */
+    line-height: 1.2; /* Reduce line height to avoid overflow */
+    padding: 10px 15px; /* Add padding to prevent text overflow */
+    box-sizing: border-box; /* Ensures padding doesn’t change dimensions */
+
+    /* Keep the Correct Hexagonal Shape */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    /* Add Shadow and Smooth Transition */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
 }
 
-.button {
-    font-size: 2rem; /* Increase the text size for the button */
-    font-weight: bold; /* Make the text bold for better visibility */
+/* Fix: Keep Hexagonal Shape During Hover */
+.button:hover {
+    background-color: #3be03b;
+    box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.7);
+    transform: scale(1.05);
 }
 
-.hexagon:before, .hexagon:after, .button:before, .button:after, .output:before, .output:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 110px solid transparent; /* Adjust to fit new width */
-    border-right: 110px solid transparent;
+/* Click Effect: Press Down */
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 8px rgba(50, 205, 50, 0.5);
 }
 
-.hexagon:before, .button:before, .output:before {
-    bottom: 100%;
-    border-bottom: 63.5px solid #32CD32; /* Adjust to fit new height */
+/* Fix: Keep Hexagonal Shape During Hover */
+.button:hover {
+    background-color: #3be03b;
+    box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.7);
+    transform: scale(1.05);
 }
 
-.hexagon:after, .button:after, .output:after {
-    top: 100%;
-    border-top: 63.5px solid #32CD32;
+/* Click Effect: Press Down */
+.button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 8px rgba(50, 205, 50, 0.5);
 }
 
 #spellOutput {
     background-color: #411e50;
     border: 2px solid #32CD32;
-    padding: 30px;
-    margin: 100px auto 60px;
+    padding: 0px 20px 30px; /*adds internal padding for proper spacing*/
+    margin: 20px auto;
     width: 80%;
     max-width: 800px;
-    min-height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
+    align-items: center; /*centers all content inside*/
     text-align: left;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     overflow-y: auto;
+    overflow: visible; /* ensures no content is clipped */
+    position: relative; /* Prevents overlapping */
+    min-height: auto; /* Allow box to expand */
     border-radius: 10px;
+}
+
+/* Fixes overlapping purple hexagon */
+#spellOutput::before, #spellOutput::after {
+    display: none; /* Hide unwanted hexagon artifacts */
 }
 
 #spellOutput.visible {
@@ -270,6 +297,7 @@ select {
 #spellOutput h2 {
     font-size: 1.8rem;
     margin-bottom: -15px;
+    color: #32CD32;
 }
 
 #spellOutput p {
@@ -299,27 +327,48 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    margin: 20px 0;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    word-wrap: break-word;
+    grid-template-columns: repeat(2, auto); /* Two columns on large screens */
+    column-gap: 80px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 25px auto 0;
 }
 
-.spell-metadata p {
-    margin: 5px 0;
-}
+    /* Adjust for mobile screens */
+    @media (max-width: 600px) {
+        .spell-metadata {
+            grid-template-columns: 1fr; /* Stack metadata in a single column */
+            text-align: center; /* Center metadata on small screens */
+            row-gap: 15px; /* More space between rows */
+        }
+
+        .spell-metadata p {
+            font-size: 1.2rem; /* Make metadata slightly larger for readability */
+        }
+    }
 
 .spell-description {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
     margin-top: 20px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Center description text on mobile */
+@media (max-width: 600px) {
+    .spell-description {
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 .spell-description h3 {
     margin-top: 0;
-    color: #ffd700;
+    color: #32CD32;
 }

@@ -34,11 +34,11 @@
     <div id="spellOutput" class="hexagon output">
         <h2><span id="spellName"></span></h2>
         <div class="spell-metadata">
-            <p><strong>Components:</strong> <span id="spellComponents"></span></p>
             <p><strong>Casting Time:</strong> <span id="spellCastingTime"></span></p>
-            <p><strong>Duration:</strong> <span id="spellDuration"></span></p>
             <p><strong>Concentration:</strong> <span id="spellConcentration"></span></p>
             <p><strong>Range:</strong> <span id="spellRange"></span></p>
+            <p><strong>Duration:</strong> <span id="spellDuration"></span></p>
+            <p><strong>Components:</strong> <span id="spellComponents"></span></p>
         </div>
         <div class="spell-description">
             <h3>Description</h3>
@@ -106,4 +106,22 @@
     
     <script src="script.js"></script>
 </body>
+    <footer>
+        <div style="text-align: center; padding: 20px;">
+            <p>© <span id="year">2025</span> Only Wizards Inc. All rights reserved.</p>
+            <p>
+                <a href="mailto:contact@onlywizardsinc.com" style="color: #32CD32; text-decoration: none;">
+                    Email: contact@onlywizards.com
+                </a>
+            </p>
+            <p>
+                <a href="https://rss.com/podcasts/owdcast/" target="_blank" style="color: #32CD32; text-decoration: none;">
+                    Listen to Our Podcast
+                </a>
+            </p>
+        </div>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
 </html>
