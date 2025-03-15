@@ -94,11 +94,11 @@ function displaySpellList() {
         spellCard.innerHTML = `
             <h2>${spell["Spell Name"] || "Unknown"}</h2>
             <div class="spell-metadata">
-                <p><strong>Components:</strong> ${spell["Components"] || "None"}</p>
                 <p><strong>Casting Time:</strong> ${spell["Casting Time"] || "Unknown"}</p>
-                <p><strong>Duration:</strong> ${spell["Duration"] || "Unknown"}</p>
                 <p><strong>Concentration:</strong> ${spell["Requires Concentration?"] || "No"}</p>
                 <p><strong>Range:</strong> ${spell["Range"] || "None"}</p>
+                <p><strong>Duration:</strong> ${spell["Duration"] || "Unknown"}</p>
+                <p><strong>Components:</strong> ${spell["Components"] || "None"}</p>
             </div>
             <div class="spell-description">
                 <h3>Description</h3>
