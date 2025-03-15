@@ -24,6 +24,7 @@ function generateSpell() {
     const randomSpell = spellList[randomIndex];
 
     // Update the display
+    document.getElementById("spellName").textContent = randomSpell["Spell Name"] || "Unknown";
     document.getElementById("spellCastingTime").textContent = randomSpell["Casting Time"] || "Unknown";
     document.getElementById("spellConcentration").textContent = randomSpell["Requires Concentration?"] || "No";
     document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
