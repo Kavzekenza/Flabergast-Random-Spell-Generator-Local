@@ -162,9 +162,17 @@ h1 {
 h2 {
     font-family: 'Fondamento', cursive;
     font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 25px; /* Adds space below the spell name */
+    font-size: 2rem; /* Set a default size */
+    margin-bottom: 25px;
     text-align: center;
+    word-wrap: break-word; /* Ensures long spell names wrap instead of overflowing */
+}
+
+/* Make spell name larger on desktop */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
 }
 
 label {
@@ -318,26 +326,45 @@ select {
 
 .spell-metadata {
     display: grid;
-    grid-template-columns: 270px 270px; /* First column for labels, second for values */
-    column-gap: 100px; /* Adds space between columns */
-    row-gap: 10px; /* Adds space between rows */
-    justify-content: center; /* Ensures content is centered */
+    grid-template-columns: repeat(2, auto); /* Two columns on large screens */
+    column-gap: 80px;
+    row-gap: 10px;
+    justify-content: center;
     align-items: start;
     text-align: left;
     width: 100%;
     max-width: 600px;
-    margin: 25px auto 10px; /* Centers the metadata under the button */
+    margin: 25px auto 0;
 }
 
-.spell-metadata p {
-    margin: 5px 0;
-}
+    /* Adjust for mobile screens */
+    @media (max-width: 600px) {
+        .spell-metadata {
+            grid-template-columns: 1fr; /* Stack metadata in a single column */
+            text-align: center; /* Center metadata on small screens */
+            row-gap: 15px; /* More space between rows */
+        }
+
+        .spell-metadata p {
+            font-size: 1.2rem; /* Make metadata slightly larger for readability */
+        }
+    }
 
 .spell-description {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
     margin-top: 20px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Center description text on mobile */
+@media (max-width: 600px) {
+    .spell-description {
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 .spell-description h3 {
