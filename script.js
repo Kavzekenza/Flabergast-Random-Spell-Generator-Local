@@ -1,4 +1,5 @@
 let spellData = [];
+let lastSpellIndex = -1; // Store the last spell index to avoid repetition
 
 // Fetch the spells data
 fetch('attached_assets/spells.json')
@@ -19,21 +20,27 @@ function generateSpell() {
         return;
     }
 
-    // Select a random spell
-    const randomIndex = Math.floor(Math.random() * spellList.length);
+    let randomIndex;
+    do {
+        randomIndex = Math.floor(Math.random() * spellList.length);
+    } while (randomIndex === lastSpellIndex && spellList.length > 1); // Ensure a different spell is selected
+
+    lastSpellIndex = randomIndex;
     const randomSpell = spellList[randomIndex];
 
     // Update the display
     document.getElementById("spellName").textContent = randomSpell["Spell Name"] || "Unknown";
+    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
     document.getElementById("spellCastingTime").textContent = randomSpell["Casting Time"] || "Unknown";
+    document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
     document.getElementById("spellConcentration").textContent = randomSpell["Requires Concentration?"] || "No";
     document.getElementById("spellRange").textContent = randomSpell["Range"] || "None";
-    document.getElementById("spellDuration").textContent = randomSpell["Duration"] || "Unknown";
-    document.getElementById("spellComponents").textContent = randomSpell["Components"] || "None";
+
     const description = randomSpell["Description"] || "No description available.";
     const formattedDescription = description.split('\n\n').map(paragraph => 
         `<p>${paragraph.trim()}</p>`
     ).join('');
+
     document.getElementById("spellDescription").innerHTML = formattedDescription;
 
     // Make the spell output visible
