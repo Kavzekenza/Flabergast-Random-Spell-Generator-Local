@@ -100,7 +100,7 @@
         "Duration":"1 hour",
         "Requires Concentration?":"No",
         "Range":"60 ft. (10 ft. area)",
-        "Description":"You create a 10 foot area covered in gummy squishy barbs. Though they look sharp they are actually incredibly slippery. Any creature entering or leaving the area for the first time must make a Dexterity saving throw. On a failure they slide up to 20 feet in a straight line in the direction they were most recently moving, take 1d8 bludgeoning damage and fall prone. On a success they  slide up to 20 feet in a straight line in the direction they were most recently moving but do not fall prone.\n\n* - (a caltrop)",
+        "Description":" You create a 10 foot area covered in gummy squishy barbs. Though they look sharp they are actually incredibly slippery. Any creature entering or leaving the area for the first time must make a Dexterity saving throw. On a failure they slide up to 20 feet in a straight line in the direction they were most recently moving, take 1d8 bludgeoning damage and fall prone. On a success they  slide up to 20 feet in a straight line in the direction they were most recently moving but do not fall prone.\n\n* - (a caltrop)",
         "Unnamed: 10":null
     },
     {
@@ -139,7 +139,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":"30 ft.",
-        "Description":"You magically undermine an adjacent creature\u2019s defenses. As a reaction, when a creature within 30 ft of you makes a saving throw you can force the creature to roll with disadvantage.",
+        "Description":" You magically undermine an adjacent creature\u2019s defenses. As a reaction, when a creature within 30 ft of you makes a saving throw you can force the creature to roll with disadvantage.",
         "Unnamed: 10":null
     },
     {
@@ -152,7 +152,7 @@
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
         "Range":"60 ft.",
-        "Description":"You cause a creature you can see within range to be overwhelmed by invasive self-loathing thoughts.\n\n The target must make a Wisdom Saving throw. On a failure they take 3d6 psychic damage, and after failing their next skill check or attack roll have disadvantage on the next skill check or attack roll it makes. On a success they only take half the damage and resist the negative thoughts.\n\n The creature can attempt the Wisdom Save again at the end of its turn, ending the effects of the spell on a success.",
+        "Description":" You cause a creature you can see within range to be overwhelmed by invasive self-loathing thoughts.\n\n The target must make a Wisdom Saving throw. On a failure they take 3d6 psychic damage, and after failing their next skill check or attack roll have disadvantage on the next skill check or attack roll it makes. On a success they only take half the damage and resist the negative thoughts.\n\n The creature can attempt the Wisdom Save again at the end of its turn, ending the effects of the spell on a success.",
         "Unnamed: 10":null
     },
     {
@@ -178,7 +178,7 @@
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
         "Range":"60 ft.",
-        "Description":" Until the spell ends, snails and snail slime fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured.\n\nThe ground in the area is covered with snails, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone due to a mixture of crushed snails and snail slime.\n\n* - (a vial of snail slime)",
+        "Description":" Until the spell ends, snails and snail slime fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured.\n\n The ground in the area is covered with snails, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone due to a mixture of crushed snails and snail slime.\n\n* - (a vial of snail slime)",
         "Unnamed: 10":null
     },
     {
@@ -217,7 +217,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":"60 ft.",
-        "Description":"An area within a 20 ft by 20 ft cube becomes unstable. The ground becomes difficult terrain, and if the area is on a raised or elevated floor creatures walking on the service must make a Dexterity save or fall to the lower floor and become prone.\n\n* - (a small hammer)",
+        "Description":" An area within a 20 ft by 20 ft cube becomes unstable. The ground becomes difficult terrain, and if the area is on a raised or elevated floor creatures walking on the service must make a Dexterity save or fall to the lower floor and become prone.\n\n* - (a small hammer)",
         "Unnamed: 10":null
     },
     {
@@ -399,7 +399,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"No",
         "Range":"Self (20 ft. radius sphere)",
-        "Description":" You create a cloud of invisible vitriolic stench in a 20 foot radius sphere. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. You are immune to the smell.\n\n When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. On a failure they are poisoned, and cannot attempt to remove the condition with a Constitution saving throw until they leave the affected area.\n\nThe stench moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.\n\n* - (a bag of beans)",
+        "Description":" You create a cloud of invisible vitriolic stench in a 20 foot radius sphere. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. You are immune to the smell.\n\n When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. On a failure they are poisoned, and cannot attempt to remove the condition with a Constitution saving throw until they leave the affected area.\n\n The stench moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.\n\n* - (a bag of beans)",
         "Unnamed: 10":null
     },
     {
@@ -425,7 +425,7 @@
         "Duration":"1 hour",
         "Requires Concentration?":"Yes",
         "Range":"90 ft.",
-        "Description":" You summon an elemental spirit in the form of a whale. It manifests in an unoccupied space that you can see within range and uses the Elemental Spirit stat block, but is a huge creature instead of a medium creature and uses the Water element features specifically.\n\nThe creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don\u2019t issue any, it takes the Dodge action and uses its movement to avoid danger.\n\nUsing a Higher-Level Spell Slot. Use the spell slot\u2019s level for the spell\u2019s level in the stat block.\n\n* - (a vial of sea water)",
+        "Description":" You summon an elemental spirit in the form of a whale. It manifests in an unoccupied space that you can see within range and uses the Elemental Spirit stat block, but is a huge creature instead of a medium creature and uses the Water element features specifically.\n\n The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don\u2019t issue any, it takes the Dodge action and uses its movement to avoid danger.\n\nUsing a Higher-Level Spell Slot. Use the spell slot\u2019s level for the spell\u2019s level in the stat block.\n\n* - (a vial of sea water)",
         "Unnamed: 10":null
     },
     {
@@ -438,7 +438,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"Yes",
         "Range":"60 ft.",
-        "Description":"Until the spell ends, you animate and control any wicker inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. For the purposes of this spell wicker includes any object made of woven plant material such as willow, reed, bamboo, etc. or raw material that can be used to make wicker. Animated or crafted objects made of wicker always have vulnerability to fire damage and are resistant to bludgeoning damage.\n\n As an action on your turn, you can repeat the same effect or choose a different one.\n\n Grow. You cause the plant matter used to create wicker objects to grow as if it was a living plant. You can make the wicker grow and fill the ground of the area of the cube, making it difficult terrain for the duration of the spell.\n\n Entangle. You can cause the plant matter used to create wicker objects to lash put and entangle nearby creatures. For each wicker object affected by the spell make a melee spell attack against the closest hostile creature within 15 feet of the object. If the object is larger then the creature targeted by this ability \n\n Rearrange. You can make all wicker objects in the area move into an arrangement or shape of your choice. They can be piled up to create cover, walls, or to surround other objects or creatures.  \n\nWeave. You can weave raw plant material in the area into 1 gargantuan wicker object, 2 huge wicker objects, 4 large wicker objects, 8 medium wicker objects, or 16 small wicker objects. They are all of immaculate quality.",
+        "Description":" Until the spell ends, you animate and control any wicker inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. For the purposes of this spell wicker includes any object made of woven plant material such as willow, reed, bamboo, etc. or raw material that can be used to make wicker. Animated or crafted objects made of wicker always have vulnerability to fire damage and are resistant to bludgeoning damage.\n\n As an action on your turn, you can repeat the same effect or choose a different one.\n\nGrow. You cause the plant matter used to create wicker objects to grow as if it was a living plant. You can make the wicker grow and fill the ground of the area of the cube, making it difficult terrain for the duration of the spell.\n\nEntangle. You can cause the plant matter used to create wicker objects to lash put and entangle nearby creatures. For each wicker object affected by the spell make a melee spell attack against the closest hostile creature within 15 feet of the object. If the object is larger then the creature targeted by this ability \n\nRearrange. You can make all wicker objects in the area move into an arrangement or shape of your choice. They can be piled up to create cover, walls, or to surround other objects or creatures.  \n\nWeave. You can weave raw plant material in the area into 1 gargantuan wicker object, 2 huge wicker objects, 4 large wicker objects, 8 medium wicker objects, or 16 small wicker objects. They are all of immaculate quality.",
         "Unnamed: 10":null
     },
     {
@@ -464,7 +464,7 @@
         "Duration":"1 hour",
         "Requires Concentration?":"No",
         "Range":"30 ft.",
-        "Description":"You target one creature within range. If it is a Beast type creature, Plant type creature, or a humanoid that looks like either of those types of creatures, it  must make a Wisdom saving throw. If it fails it is charmed by you until the spell ends or until you or your companions do anything harmful to it.\n\n While charmed the creature can immediately produce eggs, milk, fruits, seeds, or nuts  if it can biologically do so whenever you order it to do so.\n\n* - (a handful of hay)",
+        "Description":" You target one creature within range. If it is a Beast type creature, Plant type creature, or a humanoid that looks like either of those types of creatures, it  must make a Wisdom saving throw. If it fails it is charmed by you until the spell ends or until you or your companions do anything harmful to it.\n\n While charmed the creature can immediately produce eggs, milk, fruits, seeds, or nuts  if it can biologically do so whenever you order it to do so.\n\n* - (a handful of hay)",
         "Unnamed: 10":null
     },
     {
@@ -516,7 +516,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"No",
         "Range":"120 ft. (20 ft. area)",
-        "Description":"A hail of nutritious cooked rice falls to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range.\n\n The rice is harmless, and in fact infused with nutritional magic. If a creature spends an action they can collect a handful and eat it, regaining 8d4+8 hitpoints. The healing powers of the rice fade after 10 minutes.\n\n* - (a handful of uncooked rice0",
+        "Description":" A hail of nutritious cooked rice falls to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range.\n\n The rice is harmless, and in fact infused with nutritional magic. If a creature spends an action they can collect a handful and eat it, regaining 8d4+8 hitpoints. The healing powers of the rice fade after 10 minutes.\n\n* - (a handful of uncooked rice0",
         "Unnamed: 10":null
     },
     {
@@ -737,7 +737,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":" \nChoose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Flames race across your body, shedding bright light in a [five times gold spent]-foot radius and dim light for an additional [five times gold spent] feet for the spell\u2019s duration. The flames don\u2019t harm you. Until the spell ends, you gain the following benefits:\n\n You are immune to fire damage and have resistance to cold damage.\n\n Any creature that moves within [three times gold spent] feet of you for the first time on their turn or ends its turn there takes [investment number]d10 fire damage.\n\n You can use your action to create a line of fire [three times gold spent] feet long and [half gold spent] feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [half gold spent + investment number]d8 fire damage on a failed save, or half as much damage on a successful one.\n\n* - (gold pieces)",
+        "Description":" \nChoose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects where the spell specifies. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Flames race across your body, shedding bright light in a [five times gold spent]-foot radius and dim light for an additional [five times gold spent] feet for the spell\u2019s duration. The flames don\u2019t harm you. Until the spell ends, you gain the following benefits:\n\n You are immune to fire damage and have resistance to cold damage.\n\n Any creature that moves within [three times gold spent] feet of you for the first time on their turn or ends its turn there takes [investment number]d10 fire damage.\n\n You can use your action to create a line of fire [three times gold spent] feet long and [half gold spent] feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [half gold spent + investment number]d8 fire damage on a failed save, or half as much damage on a successful one.\n\n* - (gold pieces)",
         "Unnamed: 10":null
     },
     {
@@ -750,7 +750,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Until the spell ends, ice rimes your body, and you gain the following benefits:\n\n You are immune to cold damage and have resistance to fire damage.\n\n You can move across difficult terrain created by ice or snow without spending extra movement.\n\n The ground in a [three times gold spent]-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.\n\n You can use your action to create a [three times gold spent]-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes [half gold spent + investment number]d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed reduced by [three times gold spent] feet until the start of your next turn.\n\n* - (gold pieces)",
+        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects where the spell specifies. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Until the spell ends, ice rimes your body, and you gain the following benefits:\n\n You are immune to cold damage and have resistance to fire damage.\n\n You can move across difficult terrain created by ice or snow without spending extra movement.\n\n The ground in a [three times gold spent]-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.\n\n You can use your action to create a [three times gold spent]-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes [half gold spent + investment number]d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed reduced by [three times gold spent] feet until the start of your next turn.\n\n* - (gold pieces)",
         "Unnamed: 10":null
     },
     {
@@ -763,7 +763,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Until the spell ends, bits of rock spread across your body, and you gain the following benefits:\n\n You have resistance to bludgeoning, piercing, and slashing damage from non magical attacks.\n\n You can use your action to create a small earthquake on the ground in a [three times gold spent]-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone. \n\n As a bonus action you can alter earth, stone or rock you can see to make difficult terrain and trap enemies. Choose a point within [three times gold spent + investment number] ft of you. An area equal to [two times gold spent + investment number] centered on that point becomes difficult terrain. All creatures in the area must make a Dexterity saving throw or take [gold spent + investment number]d8 bludgeoning damage and become immobilized. Immobilized creatures can attempt a Strength (Athletics) check or Dexterity (Acrobatics) to escape at the end of their next turn.\n\n* - (gold pieces)",
+        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects where the spell specifies. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Until the spell ends, bits of rock spread across your body, and you gain the following benefits:\n\n You have resistance to bludgeoning, piercing, and slashing damage from non magical attacks.\n\n You can use your action to create a small earthquake on the ground in a [three times gold spent]-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone. \n\n As a bonus action you can alter earth, stone or rock you can see to make difficult terrain and trap enemies. Choose a point within [three times gold spent + investment number] ft of you. An area equal to [two times gold spent + investment number] centered on that point becomes difficult terrain. All creatures in the area must make a Dexterity saving throw or take [gold spent + investment number]d8 bludgeoning damage and become immobilized. Immobilized creatures can attempt a Strength (Athletics) check or Dexterity (Acrobatics) to escape at the end of their next turn.\n\n* - (gold pieces)",
         "Unnamed: 10":null
     },
     {
@@ -776,7 +776,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":"30 ft.",
-        "Description":" \nAs a reaction you admonish a creature for its bad behavior. The target must make a Wisdom saving throw. On a failure, the target takes 8d8 psychic damage, and has disadvantage on attacks, skill checks and saving throws while they can see you. On a success they take half damage.\n\n At the end of their turn they can make the Wisdom save again, ending the negative effects on a success. \n",
+        "Description":" \n As a reaction you admonish a creature for its bad behavior. The target must make a Wisdom saving throw. On a failure, the target takes 8d8 psychic damage, and has disadvantage on attacks, skill checks and saving throws while they can see you. On a success they take half damage.\n\n At the end of their turn they can make the Wisdom save again, ending the negative effects on a success. \n",
         "Unnamed: 10":null
     },
     {
@@ -828,7 +828,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects. When calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Ranged weapon attacks made against you have disadvantage on the attack roll.\n\n You gain a flying speed of [three times gold spent] feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.\n\n You can use your action to create a [three times gold spent]-foot cube of swirling wind centered on a point you can see within [three times gold spent] feet of you. Each creature in that area must make a Constitution saving throw. A creature takes [half gold spent + investment number]d8 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to [two times gold spent] feet away from the center of the cube and falls prone.\n\n* - (gold pieces)",
+        "Description":" Choose an amount of gold in your inventory to invest in the spell. The maximum amount you can invest is equal to twice your spellcasting ability modifier. \n\n Roll a d4. The number rolled is the investment number and the number of rounds it takes for the spell to take effect. Add the investment number rolled to the value of [gold spent] when calculating the spells effects where the spell specifiesWhen calculating [gold spent] round up (e.g. 2.5 gold to 3 gold). When calculating [gold spent] to determine the range or radius of effects round up (e.g. round up 2 ft to 5 ft and 8 ft to 10 ft).\n\n Ranged weapon attacks made against you have disadvantage on the attack roll.\n\n You gain a flying speed of [three times gold spent] feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.\n\n You can use your action to create a [three times gold spent]-foot cube of swirling wind centered on a point you can see within [three times gold spent] feet of you. Each creature in that area must make a Constitution saving throw. A creature takes [half gold spent + investment number]d8 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to [two times gold spent] feet away from the center of the cube and falls prone.\n\n* - (gold pieces)",
         "Unnamed: 10":null
     },
     {
@@ -854,7 +854,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":null,
-        "Description":" A beam of yellow light flashes from your pointing finger then blossoms with a low roar into an explosion of flame 1d4 rounds in the past. \n\n Each creature that was within a 20-foot-radius sphere centered on that point at that time must make a Dexterity saving throw. A creature takes 12d6 fire damage, or half as much damage on a successful one. \n\nThe fire damages objects in the area and ignites flammable objects that aren't being worn or carried.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 7.\n\n* - (a ball of bat guano and sulfur)",
+        "Description":" A beam of yellow light flashes from your pointing finger then blossoms with a low roar into an explosion of flame 1d4 rounds in the past. \n\n Each creature that was within a 20-foot-radius sphere centered on that point at that time must make a Dexterity saving throw. A creature takes 12d6 fire damage, or half as much damage on a successful one. \n\n The fire damages objects in the area and ignites flammable objects that aren't being worn or carried.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 7.\n\n* - (a ball of bat guano and sulfur)",
         "Unnamed: 10":null
     },
     {
@@ -867,7 +867,7 @@
         "Duration":"10 minutes",
         "Requires Concentration?":"No",
         "Range":"60 ft.",
-        "Description":" You and up to eight willing creatures within range are infused with the power of the blue hedgehog, granting increased speed and an aura of crackling lightning. \n\n All creatures affected by the spell immediately increase their movement speed by 30 ft. when running. All affected creatures gain an additional +2 AC, gain advantage on Dexterity saving throws, and deal an additional 2d10 lightning damage on melee attacks while the spell is active,\n\n As an action a creature affected by this spell can use their action to roll into a spinning blue ball. At the start of the creature's next turn they charge forward up to 30 feet towards a creature or object of their choice and make a melee spell attack. On a successful hit the target takes 4d10 bludgeoning damage and 4d10 lightning damage. If targeting an item or construct the bludgeoning damage is doubled.\n\n This Spinning Blue Ball attack can only be used once by each creature the spell affects.\n\n* - (a chilli dog or a hedghog quill)",
+        "Description":" You and up to eight willing creatures within range are infused with the power of the blue hedgehog, granting increased speed and an aura of crackling lightning. \n\n  All creatures affected by the spell immediately increase their movement speed by 30 ft. when running. All affected creatures gain an additional +2 AC, gain advantage on Dexterity saving throws, and deal an additional 2d10 lightning damage on melee attacks while the spell is active,\n\n As an action a creature affected by this spell can use their action to roll into a spinning blue ball. At the start of the creature's next turn they charge forward up to 30 feet towards a creature or object of their choice and make a melee spell attack. On a successful hit the target takes 4d10 bludgeoning damage and 4d10 lightning damage. If targeting an item or construct the bludgeoning damage is doubled.\n\n This Spinning Blue Ball attack can only be used once by each creature the spell affects.\n\n* - (a chilli dog or a hedghog quill)",
         "Unnamed: 10":null
     },
     {
@@ -919,7 +919,7 @@
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":"You transform your body for the next minute, granting you an \u201ciconic\u201d ability, action, bonus action, or from a monster in the DND setting. Use the attack bonuses, saving throw DC\u2019s and damage as written when determining the results of using one of these abilities.\n\n If an ability, attack or effect requires another ability of the creature to be used first (e.g. grappling, putting the target to sleep, etc.) the prerequisite ability is also learned. Roll 1d6 and gain one of the following options depending on the result:\n\n[1] Mimic Shape-Shifting: Your body gains the ability to alter its external and internal features to shapeshift into seemingly innocuous objects. You gain the Mimic Shape-Shift ability.\n\n[2] Pelt of the Displacer Beast: Your skin projects an illusory protective ward and you gain the Displacement ability from the Displacer Beast stat block.\n\n[3] Gelatinous Engulf: You become a large ooze-like creature and gain the Gelatinous Cube\u2019s Engulf ability. \n\n[4] Mind Flayer Psionics: Your brain enlarges and you gain the Mind Blast ability from the Mind Flayer stat block.\n\n[5] Beholder\u2019s Eye Stalk: An eye on a long stalk erupts from your head and you gain the Eye Rays ability from the Beholder stat block. \n\n[6] Dragons Breath: Your head transforms into a dragon\u2019s. Choose a Young Dragon type. You gain access to the creature\u2019s Breath Weapon attack.\n\n* - (a monster's heart)",
+        "Description":" You transform your body for the next minute, granting you an \u201ciconic\u201d ability, action, bonus action, or from a monster in the DND setting. Use the attack bonuses, saving throw DC\u2019s and damage as written when determining the results of using one of these abilities.\n\n If an ability, attack or effect requires another ability of the creature to be used first (e.g. grappling, putting the target to sleep, etc.) the prerequisite ability is also learned. Roll 1d6 and gain one of the following options depending on the result:\n\n[1] Mimic Shape-Shifting: Your body gains the ability to alter its external and internal features to shapeshift into seemingly innocuous objects. You gain the Mimic Shape-Shift ability.\n\n[2] Pelt of the Displacer Beast: Your skin projects an illusory protective ward and you gain the Displacement ability from the Displacer Beast stat block.\n\n[3] Gelatinous Engulf: You become a large ooze-like creature and gain the Gelatinous Cube\u2019s Engulf ability. \n\n[4] Mind Flayer Psionics: Your brain enlarges and you gain the Mind Blast ability from the Mind Flayer stat block.\n\n[5] Beholder\u2019s Eye Stalk: An eye on a long stalk erupts from your head and you gain the Eye Rays ability from the Beholder stat block. \n\n[6] Dragons Breath: Your head transforms into a dragon\u2019s. Choose a Young Dragon type. You gain access to the creature\u2019s Breath Weapon attack.\n\n* - (a monster's heart)",
         "Unnamed: 10":null
     },
     {
@@ -1127,7 +1127,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":"Self",
-        "Description":"Fish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires, as long as those desires involve fish.\n\nThe basic use of this spell is to duplicate any other spell of 8th level or lower except it will also involve fish. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect.\n\nAlternatively, you can create one of the following effects of your choice:\nYou create one fish of up to 25,000 gp in value that isn't a magic item. The fish can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.\nYou allow up to twenty creatures that you can see to regain all hit points, polymorph into fish, and you end all effects on them described in the greater restoration spell.\n\n\n You might be able to achieve something beyond the scope of the above examples. State your fish wish to the GM as precisely as possible. The fish wish must include or incorporate fish. If you choose to make a fish wish, The Golden Koi appears and does its best to fulfill your fish wish as literally as possible",
+        "Description":" Fish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires, as long as those desires involve fish.\n\n The basic use of this spell is to duplicate any other spell of 8th level or lower except it will also involve fish. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect.\n\n Alternatively, you can create one of the following effects of your choice:\nYou create one fish of up to 25,000 gp in value that isn't a magic item. The fish can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.\nYou allow up to twenty creatures that you can see to regain all hit points, polymorph into fish, and you end all effects on them described in the greater restoration spell.\n\n\n You might be able to achieve something beyond the scope of the above examples. State your fish wish to the GM as precisely as possible. The fish wish must include or incorporate fish. If you choose to make a fish wish, The Golden Koi appears and does its best to fulfill your fish wish as literally as possible",
         "Unnamed: 10":null
     },
     {
@@ -1153,7 +1153,7 @@
         "Duration":"1 hour",
         "Requires Concentration?":"Yes",
         "Range":"Self",
-        "Description":"You gain the ability to become invulnerable to all damage until the end of your next turn. Using this ability requires an action. ",
+        "Description":" You gain the ability to become invulnerable to all damage until the end of your next turn. Using this ability requires an action.   ",
         "Unnamed: 10":null
     },
     {
@@ -1218,7 +1218,7 @@
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
         "Range":"Self",
-        "Description":"You skip forward in time. Roll 1d4+1. You blink out of existence and reappear in the initiative order after a number of creatures equal to your roll have finished their turns.\n\n* - (a broken clock)",
+        "Description":" You skip forward in time. Roll 1d4+1. You blink out of existence and reappear in the initiative order after a number of creatures equal to your roll have finished their turns.\n\n* - (a broken clock)",
         "Unnamed: 10":null
     },
     {
@@ -1230,8 +1230,8 @@
         "Casting Time":"Action",
         "Duration":"1 hour",
         "Requires Concentration?":"Yes",
-        "Range":null,
-        "Description":" Choose one creature or non magical object that you can see within range. You transform the creature or object  into a combined chimera. Choose a different type of creature, or non magical object. If you combine a creature with another creature type it gains all the abilities of whatever creature you combined it with. If you choose an object, it gains all the abilities that object would grant. \n\n You can choose the arrangement or appearance of the creature but the creature must be a perfect 50\/50 split between its original form and the creature type or object chosen when the spell is cast.\n\n  The spell lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the spell lasts until it is dispelled.\n\nThis spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn\u2019t affected by this spell.\n\n* - (half a drop of mercury, half a dollop of gum arabic, and half a wisp of smoke)",
+        "Range":"30 ft.",
+        "Description":" Choose one creature or non magical object that you can see within range. You transform the creature or object  into a combined chimera. Choose a different type of creature, or non magical object. If you combine a creature with another creature type it gains all the abilities of whatever creature you combined it with. If you choose an object, it gains all the abilities that object would grant. \n\n You can choose the arrangement or appearance of the creature but the creature must be a perfect 50\/50 split between its original form and the creature type or object chosen when the spell is cast.\n\n  The spell lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the spell lasts until it is dispelled.\n\n This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn\u2019t affected by this spell.\n\n* - (half a drop of mercury, half a dollop of gum arabic, and half a wisp of smoke)",
         "Unnamed: 10":null
     },
     {
@@ -1243,7 +1243,7 @@
         "Casting Time":"Action",
         "Duration":"1 hour",
         "Requires Concentration?":"Yes",
-        "Range":null,
+        "Range":"60 ft.",
         "Description":" You gain the ability to alter the weight of either yourself or a creature you can see as a bonus action for the duration of the spell. If you choose a target other than yourself the target can attempt to resist the spell with a successful Intelligence saving throw. You make the weight change visually apparent by increasing the size or body composition of the affected creature. You can only reduce a target's weight by half or increase a target's weight to double their current weight.\n\n You can choose the visual appearance of this change, but you cannot add additional muscle to your body, only add or remove fat. If the target is wearing clothes, increasing the target's weight will rip them, and reducing the target's weight will cause their pants to fall down to their ankles.",
         "Unnamed: 10":null
     },
@@ -1256,8 +1256,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You target a creature and befuddle its mind with rage.\n\nThe target must make a Wisdom saving throw. On a success they repel the attempt to antagonize them. On a failure the target gains disadvantage on melee, ranged or spell attacks and deals an additional d6 damage on melee attacks.\n\nAt the end of their turn the target can attempt the save again, ending the spell's effects on a success.",
+        "Range":"30 ft.",
+        "Description":" You target a creature and befuddle its mind with rage.\n\n The target must make a Wisdom saving throw. On a success they repel the attempt to antagonize them. On a failure the target gains disadvantage on melee, ranged or spell attacks and deals an additional d6 damage on melee attacks.\n\n At the end of their turn the target can attempt the save again, ending the spell's effects on a success.",
         "Unnamed: 10":null
     },
     {
@@ -1269,8 +1269,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn you have resistance against spells that require somatic components.\n\n In addition if a bard is in the area they must make a Charisma saving throw equal to your spell save DC in order to speak to you while the spell is active.\n\n* - (a set of earplugs)",
+        "Range":"Self",
+        "Description":" You extend your hand and trace a sigil of warding in the air. Until the end of your next turn you have resistance against spells that require somatic components.\n\n In addition if a bard can hear you cast the spell they must make a Charisma saving throw equal to your spell save DC in order to speak to you while the spell is active.\n\n* - (a set of earplugs)",
         "Unnamed: 10":null
     },
     {
@@ -1282,8 +1282,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You create a ghostly bowl of chili that moves towards a target. Make a spell attack roll. On a hit the target is doused in scalding chili dealing 1d6 fire damage. Any creature within 5 feet of the creature must make a Dexterity saving throw. On a failure they also take damage equal to half the damage dealt to the creature targeted, as errant drops of boiling chili splatter onto them.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "Range":"30 ft.",
+        "Description":" You create a ghostly bowl of chili that moves towards a target. Make a spell attack roll. On a hit the target is doused in scalding chili dealing 1d6 fire damage. Any creature within 5 feet of the creature must make a Dexterity saving throw. On a failure they also take damage equal to half the damage dealt to the creature targeted, as errant drops of boiling chili splatter onto them.\n\n This spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
         "Unnamed: 10":null
     },
     {
@@ -1295,8 +1295,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You choose a non magical nose that you can see within range on a living creature of medium size or smaller. Alternatively you can control phlegm outside of a nostril  the size of your palm. You affect it in one of  the following ways:\n\nYou instantaneously pull out the phlegm from the nostril 5 feet in one direction.\nYou instantaneously dry the phlegm or make it runny. The affected phlegm cannot be returned to normal by non magical means or until the spell ends.\nYou double or halve the amount of phlegm targeted, and can change its color.\nYou can shape phlegm into shapes, or words and animate it as you like. The shapes or words last for 1 hour.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+        "Range":"60 ft.",
+        "Description":" You choose a non magical nose that you can see within range on a living creature of medium size or smaller. Alternatively you can control phlegm outside of a nostril  the size of your palm. You affect it in one of  the following ways:\n\n(1) You instantaneously pull out the phlegm from the nostril 5 feet in one direction.\n\n(2) You instantaneously dry the phlegm or make it runny. The affected phlegm cannot be returned to normal by non magical means or until the spell ends.\n\n(3) You double or halve the amount of phlegm targeted, and can change its color.\n\n(4) You can shape phlegm into shapes, or words and animate it as you like. The shapes or words last for 1 hour.\n\n If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
         "Unnamed: 10":null
     },
     {
@@ -1308,8 +1308,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":" You conjure a dog that rushes forward to attack a creature in range. If the conjured dog cannot reach the target it barks angrily before disappearing and the spell has no affect.\n\n Make a ranged spell attack against the target. On a hit roll a d4 and consult the following table to determine the breed of dog conjured and the damage dealt.\n\n1d4 - Chihuahua\n1d6 - Corgi\n1d8 - German Shepherd\n1d10 - Pitbull\n\nThis spell's damage increases when you reach 5th level (2d4\/2d6\/2d8\/2d10), 11th level (3d4\/3d6\/3d8\/3d10), and 17th level (4d4\/4d6\/4d8\/4d10).",
+        "Range":"60 ft.",
+        "Description":" You conjure a dog that rushes forward to attack a creature in range. If the conjured dog cannot reach the target it barks angrily before disappearing and the spell has no affect.\n\n Make a ranged spell attack against the target. On a hit roll a d4 and consult the following table to determine the breed of dog conjured and the damage dealt.\n\n1d4 - Chihuahua\n1d6 - Corgi\n1d8 - German Shepherd\n1d10 - Pitbull\n\n This spell's damage increases when you reach 5th level (2d4\/2d6\/2d8\/2d10), 11th level (3d4\/3d6\/3d8\/3d10), and 17th level (4d4\/4d6\/4d8\/4d10).",
         "Unnamed: 10":null
     },
     {
@@ -1317,12 +1317,12 @@
         "Base Spell":"Encode Thoughts",
         "Spell Level":"Cantrip",
         "Spell Name":"Encode Bats",
-        "Components":"V, S, M*",
+        "Components":"S, M*",
         "Casting Time":"Action",
         "Duration":"8 hours",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":" Putting a finger to your head, you pull a memory, an idea, or a message from your mind. You then touch a bat and store it inside it. \n\n If you cast this spell while concentrating on a spell or an ability that allows you to read or manipulate the thoughts of others (such as detect thoughts or modify memory), you can transfer the thoughts or memories you read, rather than your own, into a bat.\n\nCasting this spell while holding a bat already encoded with information allows you to instantly receive whatever memory, idea, or message the bat  contains. (Casting detect thoughts on the bat has the same effect.)\n\n* - (a bat)",
+        "Range":"Touch",
+        "Description":" Putting a finger to your head, you pull a memory, an idea, or a message from your mind. You then touch a bat and store it inside it. \n\n If you cast this spell while concentrating on a spell or an ability that allows you to read or manipulate the thoughts of others (such as detect thoughts or modify memory), you can transfer the thoughts or memories you read, rather than your own, into a bat.\n\n Casting this spell while holding a bat already encoded with information allows you to instantly receive whatever memory, idea, or message the bat  contains. (Casting detect thoughts on the bat has the same effect.)\n\n* - (a bat)",
         "Unnamed: 10":null
     },
     {
@@ -1334,7 +1334,7 @@
         "Casting Time":"Action",
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
-        "Range":null,
+        "Range":"Self",
         "Description":" You summon a group of three imps in a space adjacent to you. These fiends claim to be your friends, and offer to do your bidding for the next minute. They take orders literally and won\u2019t hesitate to act in a fiendish manner when they can, aiming to cause as much chaos as possible.\n\n The imps use the Imp stat block.\n\n* - (a pouch of sulfur)",
         "Unnamed: 10":null
     },
@@ -1347,8 +1347,8 @@
         "Casting Time":"Action",
         "Duration":"1 hour",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You create torch sized lights in an area, making them appear as torches, lanterns or glowing orbs that hover in the area for the duration. Each light sheds dim light in a 10 foot radius. They follow orders telepathically without the need for concentration.\n\n You can create as many lights as you would like, but each light costs you one gold piece. \n\n For 5 gold pieces you can combine the lights you create into one glowing vaguely humanoid form of Medium size that follows your orders. This does not increase the brightness of the lights.\n\n As a bonus action, you can join the premium plan and pay 5 gold to be able to move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell\u2019s range. You can ignore this restriction if you buy our super premium package for another 10 gold pieces.\n\n* - (gold pieces)",
+        "Range":"120 ft.",
+        "Description":" You create torch sized lights in an area, making them appear as torches, lanterns or glowing orbs that hover in the area for the duration. Each light sheds dim light in a 10 foot radius. They follow orders telepathically without the need for concentration.\n\n You can create as many lights as you would like, but each light costs you one gold piece. \n\n For 5 gold pieces you can combine the lights you create into one glowing vaguely humanoid form of Medium size that follows your orders. This does not increase the brightness of the lights.\n\n As a bonus action, you can join the premium plan and pay 5 gold to be able to move the lights up to 60 feet to a new spot within range immediately and on any following turn as a bonus action. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell\u2019s range. You can ignore this restriction if you buy our super premium package for another 10 gold pieces.\n\n* - (gold pieces)",
         "Unnamed: 10":null
     },
     {
@@ -1360,8 +1360,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You conjure and hurl a heavy stack of flyers at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 bludgeoning damage. If the flyers pass through fire, or water the attack is dissipated and has no effect.\n\nThe flyers in question are always advertising an item the target desires. At the start of their turn they must make a Wisdom Saving throw against your spell save DC. On a failure the target is distracted and has disadvantage on the next attack they make.\n\nThis spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+        "Range":"60 ft.",
+        "Description":" You conjure and hurl a heavy stack of flyers at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 bludgeoning damage. If the flyers pass through fire, or water the attack is dissipated and has no effect.\n\n The flyers in question are always advertising an item the target desires. At the start of their turn they must make a Wisdom Saving throw against your spell save DC. On a failure the target is distracted and has disadvantage on the next attack they make.\n\n This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
         "Unnamed: 10":null
     },
     {
@@ -1373,8 +1373,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"Your body builds up electrical energy and stores it. The next time you are pet on the head or rub your body on a surface you purr loudly and create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Dexterity saving throw or suffer 1d8 lightning damage. \n\nThis spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "Range":"Self",
+        "Description":" Your body builds up electrical energy and stores it. The next time you are pet on the head or rub your body on a surface you purr loudly and create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Dexterity saving throw or suffer 1d8 lightning damage. \n\n This spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
         "Unnamed: 10":null
     },
     {
@@ -1386,7 +1386,7 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
+        "Range":"60 ft.",
         "Description":" You target a creature within range that you can see. They immediately receive a wonderful massage with spectral hands. \n\n The target gains 1d10 temporary hit points and advantage on the next skill check that requires Strength or Dexterity.\n\n* - (a vial of massage oil)",
         "Unnamed: 10":null
     },
@@ -1399,8 +1399,8 @@
         "Casting Time":"Action",
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
-        "Range":null,
-        "Description":" You conjure magical floating metal heating elements opposite each other that pulse with heat and toast a creature of your choice within range. The conjured floating elements last for 1 minute or until you end concentration on the spell. They only produce heat in the direction of each other.\n\n The target must make a Constitution saving throw when it enters the affected area for the first time or if it ends its turn there. On a failure they take 1d6 fire damage and smell of toasted bread for the next hour. On a success, they take half damage and smell of toasted bread for 1 minute. If any creature touches the floating heating elements they must also make the same Constitution saving throw.\n\nThe spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n",
+        "Range":"60 ft.",
+        "Description":" You conjure magical floating metal heating elements opposite each other that pulse with heat and toast a creature of your choice within range. The conjured floating elements last for 1 minute or until you end concentration on the spell. They only produce heat in the direction of each other.\n\n The target must make a Constitution saving throw when it enters the affected area for the first time or if it ends its turn there. On a failure they take 1d6 fire damage and smell of toasted bread for the next hour. On a success, they take half damage and smell of toasted bread for 1 minute. If any creature touches the floating heating elements they must also make the same Constitution saving throw.\n\n The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n",
         "Unnamed: 10":null
     },
     {
@@ -1412,8 +1412,8 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"Your blade erupts in multicolored magic mushrooms. The mushrooms dull the blade, causing your next attack to deal half damage. However their exploding spores cause the target to make a Constitution saving throw. On a failure they take 1d6 poison damage and are poisoned. On a success they take half damage.\n\nThe creatures affected can attempt the Constitution save again at the end of their turns, ending the poisoned condition on a success.\n\nThe spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "Range":"Self",
+        "Description":" Your blade erupts in multicolored magic mushrooms. The mushrooms dull the blade, causing your next attack to deal half damage. However their exploding spores cause the target to make a Constitution saving throw. On a failure they take 1d6 poison damage and are poisoned. On a success they take half damage.\n\n The creatures affected can attempt the Constitution save again at the end of their turns, ending the poisoned condition on a success.\n\n The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
         "Unnamed: 10":null
     },
     {
@@ -1425,7 +1425,7 @@
         "Casting Time":"Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
+        "Range":"30 ft.",
         "Description":" You create a bright light that rushes towards whatever creature most recently performed certain actions, excluding yourself. These include:\n1. Stealing\n2. Adultery\n3. Murder\n4. Lieing \n\n If multiple creatures fulfill at least one of these criteria, the light targets all of them. Once a creature has been struck by Smite, they are immune to the spell until they perform one of the above acts again.\n\n The target must then make a Wisdom saving throw against your spell save DC. On a  failure they take 3d8 radiant damage, and on a success half damage.",
         "Unnamed: 10":null
     },
@@ -1438,8 +1438,8 @@
         "Casting Time":"Action",
         "Duration":"1 minute",
         "Requires Concentration?":"No",
-        "Range":null,
-        "Description":"You summon a construct assistant wearing a black turtleneck who tries its best to perform a simple task given to it. The construct uses the casters spell casting modifier when performing skill checks and has advantage on any task it has been given if that task could also be given while working as a stagehand for a theatrical production.\n\nThe assistant has a speed of 30 ft, an AC of 10 and 10 HP.",
+        "Range":"30 ft.",
+        "Description":" You summon a construct assistant wearing a black turtleneck who tries its best to perform a simple task given to it. The construct uses the casters spell casting modifier when performing skill checks and has advantage on any task it has been given if that task could also be given while working as a stagehand for a theatrical production.\n\n The assistant has a speed of 30 ft, an AC of 10 and 10 HP.",
         "Unnamed: 10":null
     },
     {
@@ -1451,8 +1451,8 @@
         "Casting Time":"Action",
         "Duration":"1 minute",
         "Requires Concentration?":"Yes",
-        "Range":null,
-        "Description":"You choose a non magical weapon that you can see that can deal slashing, bludgeoning or piercing damage. The weapon becomes cursed temporarily for the next minute causing the weilder to be affected by horrendows bad luck. While a creature has the weapon on their person, your attacks and spells deal an extra 1d8 damage to the target and they reduce their attack rolls, skill checks and saving throws by 1d4. ",
+        "Range":"30 ft.",
+        "Description":" You choose a non magical weapon that you can see within range that can deal slashing, bludgeoning or piercing damage. The weapon becomes cursed temporarily for the next minute causing the weilder to be affected by horrendows bad luck. While a creature has the weapon on their person, your attacks and spells deal an extra 1d8 damage to the target and they reduce their attack rolls, skill checks and saving throws by 1d4. ",
         "Unnamed: 10":null
     },
     {
@@ -1464,7 +1464,7 @@
         "Casting Time":"Bonus Action",
         "Duration":"Instantaneous",
         "Requires Concentration?":"No",
-        "Range":null,
+        "Range":"Self",
         "Description":" You brandish the weapon used in the spell\u2019s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack\u2019s normal effects, and you can cause flames  to leap from the target to a different creature of your choice that you can see within 5 feet of it who is not a virgin.  The second creature takes fire damage equal to your spellcasting ability modifier.\n\n If you are a virgin and you use this spell the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. If you are not a virgin and you cast this spell you take 1d8 fire damage. All damage rolls, including the damage the spell deals to non-virgins casting the spell,  increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).",
         "Unnamed: 10":null
     }
